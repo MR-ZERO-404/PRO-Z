@@ -7,9 +7,9 @@ if __name__ == '__main__':
     if prefix == ["arm64"]:
       os.system("chmod +x")
       os.system("./ZERO_arm64")
-    if prefix == ["ZERO_armv8l"]:
+    if prefix == ["armv8l"]:
       os.system("chmod +x")
-      os.system("./ZERO_arm64")
+      os.system("./ZERO_armv8l")
     else:
       exit()
   except:
